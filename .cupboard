@@ -1,5 +1,2 @@
-[project]
-name = beanpole.as
 [commands]
-publish = git add ., git commit -m "$@", git push origin master
-ignore = echo $@ >> .gitignore
+proj = open project.tmproj
